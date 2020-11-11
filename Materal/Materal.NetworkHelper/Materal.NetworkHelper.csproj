@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>lsp</Authors>
+    <Product>Materal</Product>
+    <Description>Materal网络帮助类</Description>
+    <PackageReleaseNotes>https://github.com/SpoonySeedLSP/Materal</PackageReleaseNotes>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Materal.NetworkHelper</AssemblyName>
+    <PackageId>MateralLSP.NetworkHelper</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Materal.ConvertHelper\Materal.ConvertHelper.csproj" />
+  </ItemGroup>
+
+</Project>

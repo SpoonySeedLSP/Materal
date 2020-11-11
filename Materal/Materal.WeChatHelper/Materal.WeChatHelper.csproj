@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>lsp</Authors>
+    <Product>Materal</Product>
+    <PackageReleaseNotes>https://github.com/SpoonySeedLSP/Materal</PackageReleaseNotes>
+    <Copyright>Materal</Copyright>
+    <Description>Materal微信帮助类</Description>
+    <PackageId>MateralLSP.WeChatHelper</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LitJson" Version="0.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Materal.ConvertHelper\Materal.ConvertHelper.csproj" />
+    <ProjectReference Include="..\Materal.DateTimeHelper\Materal.DateTimeHelper.csproj" />
+    <ProjectReference Include="..\Materal.EnumHelper\Materal.EnumHelper.csproj" />
+    <ProjectReference Include="..\Materal.Model\Materal.Model.csproj" />
+    <ProjectReference Include="..\Materal.NetworkHelper\Materal.NetworkHelper.csproj" />
+    <ProjectReference Include="..\Materal.SystemHelper\Materal.SystemHelper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\Basis\Request\" />
+  </ItemGroup>
+
+</Project>

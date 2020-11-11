@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>lsp</Authors>
+    <Product>Materal</Product>
+    <PackageReleaseNotes>https://github.com/SpoonySeedLSP/Materal</PackageReleaseNotes>
+    <Description>MateralRabbitMQ帮助类</Description>
+    <PackageId>MateralLSP.RabbitMQHelper</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Materal.Common\Materal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

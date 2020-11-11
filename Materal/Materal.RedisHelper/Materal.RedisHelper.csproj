@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>lsp</Authors>
+    <Product>Materal</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>https://github.com/SpoonySeedLSP/Materal</PackageReleaseNotes>
+    <Description>MateralRedis帮助类</Description>
+    <LangVersion>latest</LangVersion>
+    <PackageId>MateralLSP.RedisHelper</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.1.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Materal.ConvertHelper\Materal.ConvertHelper.csproj" />
+    <ProjectReference Include="..\Materal.DateTimeHelper\Materal.DateTimeHelper.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+{
+  "ServerConfig": {
+    "Host": "192.168.0.101",
+    "Port": 8201
+  },
+  "ProtalServerConfig": {
+    "ProtalUrl": "http://192.168.0.101:8200/",
+    "Name": "DEV"
+  },
+  "SqliteConfig": {
+    "FilePath": "ConfigServerDB.db",
+    "Password": ""
+  }
+}

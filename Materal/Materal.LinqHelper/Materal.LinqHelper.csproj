@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild><!--生成包存档-->
+    <Version>0.0.1</Version><!--版本-->
+    <Authors>lsp</Authors><!--作者-->
+    <Product>Materal</Product>
+    <PackageReleaseNotes>https://github.com/SpoonySeedLSP/Materal</PackageReleaseNotes><!--包发行注释-->
+    <Copyright>Materal</Copyright><!--版权-->
+    <Description>MateralLinq帮助类</Description>
+    <PackageId>MateralLSP.LinqHelper</PackageId>
+  </PropertyGroup>
+
+</Project>
