@@ -3,14 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.7</Version>
-    <Authors>Materal</Authors>
+    <Version>0.0.1</Version>
+    <Authors>lsp</Authors>
     <Product>Materal.TFMS</Product>
     <Description>Materal事件总线</Description>
+    <PackageId>MateralLSP.TFMS.EventBus</PackageId>
+    <Company>Materal</Company>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Materal.Common" Version="1.0.3" />
+    <PackageReference Include="MateralLSP.Common" Version="0.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>

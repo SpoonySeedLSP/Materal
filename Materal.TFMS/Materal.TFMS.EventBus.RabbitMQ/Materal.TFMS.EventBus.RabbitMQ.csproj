@@ -3,10 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.7</Version>
-    <Authors>Materal</Authors>
+    <Version>0.0.1</Version>
+    <Authors>lsp</Authors>
     <Product>Materal.TFMS</Product>
     <Description>Materal事件总线RabbitMQ实现</Description>
+    <PackageId>MateralLSP.TFMS.EventBus.RabbitMQ</PackageId>
+    <Company>Materal</Company>
   </PropertyGroup>
 
   <ItemGroup>
