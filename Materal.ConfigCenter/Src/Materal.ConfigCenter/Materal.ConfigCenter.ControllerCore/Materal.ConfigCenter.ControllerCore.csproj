@@ -2,14 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ConfigCenter</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>0.0.5</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.1</Version>
+    <PackageId>MateralLSP.ConfigCenter.ControllerCore</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Materal.DotNetty.ControllerBus" Version="0.1.7" />
+    <PackageReference Include="MateralLSP.DotNetty.ControllerBus" Version="0.0.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
   </ItemGroup>
 

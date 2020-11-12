@@ -2,18 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ConfigCenter</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>0.0.5</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.1</Version>
+    <PackageId>MateralLSP.ConfigCenter.ConfigServer.Common</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="2.1.0" />
-    <PackageReference Include="Materal.DotNetty.Server.CoreImpl" Version="0.1.7" />
+    <PackageReference Include="MateralLSP.DotNetty.Server.CoreImpl" Version="0.0.1" />
+    <PackageReference Include="MateralLSP.TTA.SqliteRepository" Version="0.0.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.4" />
-    <PackageReference Include="Materal.TTA.SqliteRepository" Version="2.0.6" />
   </ItemGroup>
 
 

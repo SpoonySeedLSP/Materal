@@ -5,15 +5,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ConfigCenter</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>0.0.5</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
-    <PackageReference Include="Materal.ConvertHelper" Version="1.0.8" />
-    <PackageReference Include="Materal.NetworkHelper" Version="1.0.5" />
-    <PackageReference Include="Materal.TTA.EFRepository" Version="2.0.6" />
+    <PackageReference Include="MateralLSP.ConvertHelper" Version="0.0.1" />
+    <PackageReference Include="MateralLSP.NetworkHelper" Version="0.0.2" />
+    <PackageReference Include="MateralLSP.TTA.EFRepository" Version="0.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
   </ItemGroup>
 

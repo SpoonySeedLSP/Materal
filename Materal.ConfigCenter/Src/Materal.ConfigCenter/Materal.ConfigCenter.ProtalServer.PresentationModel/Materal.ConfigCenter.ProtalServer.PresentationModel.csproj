@@ -2,14 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ConfigCenter</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>0.0.5</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.1</Version>
+    <PackageId>MateralLSP.ConfigCenter.ProtalServer.PresentationModel</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Materal.Model" Version="1.0.9" />
+    <PackageReference Include="MateralLSP.Model" Version="0.0.1" />
   </ItemGroup>
 
   <ItemGroup>
