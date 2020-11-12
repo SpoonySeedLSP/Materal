@@ -3,10 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Materal.DotNetty.ControllerBus</PackageId>
-    <Authors>Materal</Authors>
+    <PackageId>MateralLSP.DotNetty.ControllerBus</PackageId>
+    <Authors>lsp</Authors>
     <Product>Materal.DotNetty</Product>
-    <Version>0.1.11</Version>
+    <Version>0.0.1</Version>
+    <Company>Materal</Company>
   </PropertyGroup>
 
   <ItemGroup>

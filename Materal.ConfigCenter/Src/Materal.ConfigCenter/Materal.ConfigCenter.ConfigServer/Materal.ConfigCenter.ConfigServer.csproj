@@ -5,8 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Product>Materal.ConfigCenter</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
+    <Authors>lsp</Authors>
     <Version>0.0.5</Version>
+    <PackageId>MateralLSP.ConfigCenter.ConfigServer</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

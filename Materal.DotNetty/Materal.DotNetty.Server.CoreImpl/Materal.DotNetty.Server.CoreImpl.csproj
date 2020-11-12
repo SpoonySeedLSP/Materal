@@ -3,10 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Materal.DotNetty.Server.CoreImpl</PackageId>
-    <Authors>Materal</Authors>
+    <PackageId>MateralLSP.DotNetty.Server.CoreImpl</PackageId>
+    <Authors>lsp</Authors>
     <Product>Materal.DotNetty</Product>
-    <Version>0.1.11</Version>
+    <Version>0.0.1</Version>
+    <Company>Materal</Company>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,9 +22,9 @@
 
   <ItemGroup>
     <PackageReference Include="DotNetty.Transport" Version="0.6.0" />
-    <PackageReference Include="Materal.CacheHelper" Version="1.0.3" />
-    <PackageReference Include="Materal.ConvertHelper" Version="1.0.8" />
-    <PackageReference Include="Materal.Model" Version="1.0.9" />
+    <PackageReference Include="MateralLSP.CacheHelper" Version="0.0.1" />
+    <PackageReference Include="MateralLSP.ConvertHelper" Version="0.0.1" />
+    <PackageReference Include="MateralLSP.Model" Version="0.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.6" />
   </ItemGroup>
 

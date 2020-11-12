@@ -3,9 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Materal</Authors>
+    <Authors>lsp</Authors>
     <Product>Materal.DotNetty</Product>
-    <Version>0.1.11</Version>
+    <Version>0.0.1</Version>
+    <PackageId>MateralLSP.DotNetty.Client.Core</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
