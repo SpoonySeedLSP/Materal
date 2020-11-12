@@ -5,10 +5,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ThreeTierArchitecture</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>2.0.7</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.2</Version>
     <Copyright>Materal</Copyright>
     <Description>Materal.TTA.SqlServerRepository</Description>
+    <PackageId>MateralLSP.TTA.SqlServerRepository</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

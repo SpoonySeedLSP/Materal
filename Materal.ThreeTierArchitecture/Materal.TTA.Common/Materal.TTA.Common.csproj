@@ -5,16 +5,18 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ThreeTierArchitecture</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>2.0.7</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.2</Version>
     <Copyright>Materal</Copyright>
     <Description>Materal.TTA.Common</Description>
     <PackageReleaseNotes>1、升级依赖包</PackageReleaseNotes>
+    <AssemblyName>Materal.TTA.Common</AssemblyName>
+    <PackageId>MateralLSP.TTA.Common</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Materal.Common" Version="1.0.2" />
-    <PackageReference Include="Materal.Model" Version="1.0.9" />
+    <PackageReference Include="MateralLSP.Common" Version="0.0.1" />
+    <PackageReference Include="MateralLSP.Model" Version="0.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
   </ItemGroup>
 

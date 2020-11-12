@@ -5,15 +5,16 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Materal.ThreeTierArchitecture</Product>
     <Company>Materal</Company>
-    <Authors>Materal</Authors>
-    <Version>2.0.7</Version>
+    <Authors>lsp</Authors>
+    <Version>0.0.2</Version>
     <Copyright>Materal</Copyright>
     <Description>Materal.TTA.EFRepository</Description>
+    <PackageId>MateralLSP.TTA.EFRepository</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Materal.CacheHelper" Version="1.0.3" />
-    <PackageReference Include="Materal.RedisHelper" Version="1.0.4" />
+    <PackageReference Include="MateralLSP.CacheHelper" Version="0.0.1" />
+    <PackageReference Include="MateralLSP.RedisHelper" Version="0.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
   </ItemGroup>
 
